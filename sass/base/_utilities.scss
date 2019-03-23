@@ -4,10 +4,18 @@
 
 .mb-big {
     margin-bottom: 8rem;
+
+    @include respond(tab-port) {
+        margin-bottom: 5rem;
+    }
 }
 
 .mb-medium {
     margin-bottom: 4rem;
+
+    @include respond(tab-port) {
+        margin-bottom: 3rem;
+    }
 }
 
 .mb-small {
